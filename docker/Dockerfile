@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ayudadigital/duing:18.04
 RUN apt-get update && \
     apt-get -y upgrade && \
     apt-get -y install xvfb x11-utils x11vnc qemu && \
